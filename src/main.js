@@ -2,7 +2,7 @@
       document.addEventListener('DOMContentLoaded', () => {
         const track = document.querySelector('.carousel-track');
     
-        // Clone le contenu pour l'effet de boucle
+        // Clone le carousel
         const clone = track.cloneNode(true);
         clone.classList.add('carousel-clone');
         track.parentElement.appendChild(clone);
