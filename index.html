@@ -11,7 +11,7 @@
 </head>
 
 <body class="bg-gray-900">
-  <nav class="bg-gray-800 shadow-lg ">
+  <nav class="bg-gray-800">
     <div class="max-w-6xl mx-auto px-4">
       <div class="flex justify-center">
         <div class="flex space-x-1 md:space-x-7">
@@ -26,7 +26,7 @@
   </nav>
   <section id="accueil" class="py-20 ">
     <div class=" flex justify-center">
-      <div class="grid lg:grid-cols-2  w-1/2  ">
+      <div class="grid lg:grid-cols-2  w-1/2">
         <div>
           <h1 class="text-4xl font-bold text-gray-300 ">MALO</h1>
           <h1 class="text-4xl font-bold text-green-600 ml-10 mb-6">GUEGUEN</h1>
@@ -54,12 +54,15 @@
             class="h-16 w-16" />
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
             alt="JavaScript" class="h-16 w-16" />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C" class="h-16 w-16" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C" 
+            class="h-16 w-16" />
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java"
             class="h-16 w-16" />
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP"
             class="h-16 w-16" />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL"
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" alt="SQL"
+            class="h-16 w-16" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" alt="C++"
             class="h-16 w-16" />
           <div class="w-6"></div>
         </div>
@@ -73,7 +76,9 @@
       <div class="grid lg:grid-cols-3 gap-8">
 
         <div class="bg-gray-700 rounded-lg ">
-          <img src="" alt="Projet 1" class="w-full h-48 ">
+          <div class="flex justify-center"> 
+            <img src="TD.png" alt="Projet 3" class="w-48 h-48">
+          </div>
           <div class="p-6">
             <h3 class="text-xl font-semibold text-white mb-2">Tower defense</h3>
             <p class="text-gray-300">Création d'un tower defense en java</p>
@@ -84,7 +89,9 @@
         </div>
 
         <div class="bg-gray-700 rounded-lg ">
-          <img src="" alt="Projet 2" class="w-full h-48 ">
+          <div class="flex justify-center"> 
+            <img src="CLP.png" alt="Projet 3" class="w-48 h-48">
+          </div>
           <div class="p-6">
             <h3 class="text-xl font-semibold text-white mb-2">Aspirateur robot</h3>
             <p class="text-gray-300">conseption et programation d'un aspirateur robot open source</p>
@@ -95,7 +102,9 @@
         </div>
 
         <div class="bg-gray-700 rounded-lg ">
-          <img src="" alt="Projet 3" class="w-full h-48 ">
+          <div class="flex justify-center"> 
+            <img src="casse_brique.png" alt="Projet 3" class="w-48 h-48">
+          </div>
           <div class="p-6">
             <h3 class="text-xl font-semibold text-white mb-2">Casse brique</h3>
             <p class="text-gray-300">Création d'un casse brique en C</p>
@@ -110,7 +119,7 @@
 
   <section id="logiciels" class="py-16 bg-gray-700">
     <div class="max-w-6xl mx-auto ">
-      <h2 class="text-3xl font-bold text-center text-white mb-12">Mes logiciels</h2>
+      <h2 class="text-3xl font-bold text-center text-white mb-12">Mes outils</h2>
       <div class="relative overflow-hidden h-24">
         <div class="carousel-track-revers flex gap-20 center w-max will-change-transform">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-original.svg" alt="Ubuntu"
@@ -121,11 +130,13 @@
             class="h-16 w-16" />
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git"
             class="h-16 w-16" />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="Java"
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="Github"
             class="h-16 w-16" />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitlab/gitlab-original.svg" alt="PHP"
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitlab/gitlab-original.svg" alt="Gitlab"
             class="h-16 w-16" />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-original.svg" alt="SQL"
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-original.svg" alt="Debian"
+            class="h-16 w-16" />
+          <img src="powerpoint.png" alt="Powerpoint"
             class="h-16 w-16" />
           <div class="w-6"></div>
         </div>
@@ -136,35 +147,57 @@
     <div class="max-w-6xl mx-auto  ">
       <h2 class="text-3xl font-bold text-center text-white mb-12">Contactez-moi</h2>
       <div class="max-w-2xl mx-auto">
-        <form action="src/contact.php" method="POST" class="space-y-6">
+        <form action="https://formspree.io/f/xvgklypr" method="POST" class="space-y-6">
           <div>
-            <label for="name" class="block text-sm font-medium text-gray-300">Nom</label>
-            <input type="text" id="nom"
-              class="mt-1 block w-full border border-gray-600 rounded-md py-2 px-3 focus:ring-primary-light bg-gray-700 text-white">
+              <label for="email" class="block text-sm font-medium text-gray-300">Email</label>
+              <input type="email" id="email" name="email"  required      
+                class="mt-1 block w-full border border-gray-600 rounded-md py-2 px-3 focus:ring-primary-light bg-gray-700 text-white">
           </div>
           <div>
-            <label for="name" class="block text-sm font-medium text-gray-300">Prénom</label>
-            <input type="text" id="prenom"
-              class="mt-1 block w-full border border-gray-600 rounded-md py-2 px-3 focus:ring-primary-light bg-gray-700 text-white">
+              <label for="message" class="block text-sm font-medium text-gray-300">Message</label>
+              <textarea id="message" name="message"  rows="4" required       
+                class="mt-1 block w-full border border-gray-600 rounded-md py-2 px-3 bg-gray-700 text-white"></textarea>
           </div>
           <div>
-            <label for="name" class="block text-sm font-medium text-gray-300">Email</label>
-            <input type="text" id="email"
-              class="mt-1 block w-full border border-gray-600 rounded-md py-2 px-3 focus:ring-primary-light bg-gray-700 text-white">
+              <button type="submit"
+                class="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg transition-colors">
+                  Envoyer
+              </button>
           </div>
-          <div>
-            <label for="message" class="block text-sm font-medium text-gray-300">Message</label>
-            <textarea id="message" rows="4"
-              class="mt-1 block w-full border border-gray-600 rounded-md  py-2 px-3 bg-gray-700 text-white"></textarea>
-          </div>
-          <div>
-            <button type="submit"
-              class="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg ">Envoyer</button>
-          </div>
-        </form>
+      </form>
       </div>
     </div>
   </section>
-  
-
 </body>
+<footer class="bg-gray-900 py-12 border-t border-gray-800">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="grid grid-cols-1 md:grid-cols-2 text-center md:text-left place-items-center gap-8">
+      <div>
+        <h3 class="text-xl font-semibold text-green-600 mb-4">Contact</h3>
+        <ul class="space-y-3">
+          <li class="flex justify-center md:justify-start items-center">
+            <span class="text-gray-300 mr-3 text-2xl">✉️</span>
+            <span class="text-gray-300">maloguegbzh@gmail.com</span>
+          </li>
+          <li class="flex justify-center md:justify-start items-center">
+            <span class="text-gray-300 mr-3 text-2xl">📱</span>
+            <span class="text-gray-300">+33 7 81 06 50 99</span>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-xl font-semibold text-green-600 mb-4">Réseaux</h3>
+        <div class="flex justify-center md:justify-start space-x-6 items-center">
+          <a href="https://github.com/malo-gueguen">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" 
+                 alt="GitHub" class="h-8 w-8 invert" />
+          </a>
+          <a href="https://www.linkedin.com/in/malo-gueguen-91048732b">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" 
+                 alt="LinkedIn" class="h-8 w-8" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
